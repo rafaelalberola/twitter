@@ -1,4 +1,4 @@
-# Twitter Marketing | Replicating Twitter's Marketing Page
+# Twitter Marketing | Replica de la página de Marketing de Twitter
 
 ![Twitter-1](https://user-images.githubusercontent.com/61853278/78056535-9b34e100-7385-11ea-90a6-5ab5b8b1b929.jpg)
 Primera sección de la página de Twitter Marketing.
