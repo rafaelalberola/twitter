@@ -5,7 +5,7 @@
 
 ## 🖥 [DEMO](https://twittermarketing.netlify.com)
 
-### 📖Descripción 
+### 📖 Descripción 
 
 Réplica de la página de [Marketing de Twitter](https://marketing.twitter.com/na/en/culture-and-conversations#/) con HTML5, CSS3, jQuery, Waypoints, wow.js y animate.css.
 
@@ -15,7 +15,7 @@ Por otro lado, gracias a **wow.js** y **animate.css** la web cuenta con animacio
 
 El resto de animaciones de la página están desarrolladas en **CSS puro**.
 
-### 📸Capturas
+### 📸 Capturas
 
 ![Twitter-2](https://user-images.githubusercontent.com/61853278/78056539-9c660e00-7385-11ea-93f6-d8c3f420f90f.jpg)
 *Segunda sección de la página de Twitter Marketing.*
