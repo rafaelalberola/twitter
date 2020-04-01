@@ -9,11 +9,11 @@ Primera sección de la página de Twitter Marketing.
 
 Réplica de la página de [Marketing de Twitter](https://marketing.twitter.com/na/en/culture-and-conversations#/) con HTML5, CSS3, jQuery, Waypoints, wow.js y animate.css.
 
-Gracias a jQuery es posible crear un Smooth Scrolling para que cada enlace lleve a su sección. Mediante Waypoints, podemos lanzar un evento cuando el scroll se encuentre en una posición determinada de la página, en este caso, cuando entramos en la primera sección, el logo y los enlaces del menú izquierdo se convierten en color blanco.
+Gracias a **jQuery** es posible crear un *Smooth Scrolling* para que cada enlace lleve a su sección. Mediante **Waypoints**, podemos lanzar un evento cuando el scroll se encuentre en una posición determinada de la página, en este caso, cuando entramos en la primera sección, el logo y los enlaces del menú izquierdo se convierten en color blanco.
 
-Por otro lado, gracias a wow.js y animate.css la web cuenta con animaciones fluidas muy similares a las de la página oficial tanto en ordenador como en dispositivos responsive.
+Por otro lado, gracias a **wow.js** y **animate.css** la web cuenta con animaciones fluidas muy similares a las de la página oficial tanto en ordenador como en dispositivos responsive.
 
-El resto de animaciones de la página están desarrolladas en CSS puro.
+El resto de animaciones de la página están desarrolladas en **CSS puro**.
 
 ### 📸Capturas
 
