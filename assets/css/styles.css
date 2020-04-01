@@ -768,7 +768,7 @@ and (max-device-width: 1224px) {
 }
     
 .number {
-    font-size: .8em;
+    font-size: .6em !important;
 }
 
 #topnav {
@@ -983,6 +983,7 @@ h1 {
     width: 85%;
     height: 2px;
     left: 80px;
+    top: 10px;
 }
 
 .grid-cards {
