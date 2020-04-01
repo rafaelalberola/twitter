@@ -766,6 +766,10 @@ and (max-device-width: 1224px) {
 .secondary-container-blue, .secondary-container-purple, .secondary-container-green, .secondary-container-orange, .secondary-container-pumpkin, .secondary-container-wine {
     padding: .1em 100px 10em 290px;
 }
+    
+.number {
+    font-size: .8em;
+}
 
 #topnav {
     display: inherit;
