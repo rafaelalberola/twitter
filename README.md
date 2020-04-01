@@ -3,7 +3,8 @@
 ![Twitter-1](https://user-images.githubusercontent.com/61853278/78056535-9b34e100-7385-11ea-90a6-5ab5b8b1b929.jpg)
 *Primera sección de la página de Twitter Marketing.*
 
-## 🖥 [DEMO](https://twitter-marketing.netlify.com)
+
+## 🖥 [DEMO](https://twitter-marketing.netlify.com) || [![Netlify Status](https://api.netlify.com/api/v1/badges/7cefbf1e-7879-43c4-90c8-1922e6abaf8a/deploy-status)](https://app.netlify.com/sites/twitter-marketing/deploys)
 
 ### 📖 Descripción 
 
