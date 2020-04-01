@@ -12,15 +12,33 @@
 @import url(//db.onlinewebfonts.com/c/fb04898d5b14da735b1fdf6e4958d214?family=Helvetica+Neue+LT+Com);
 @import url(//db.onlinewebfonts.com/c/b9c4b6f31f1d4c4c9755b89abb981506?family=Helvetica+Neue+LT+Pro);
 
+/*0. General*/
 
-/*General*/
+.col-1 {width: 100%;}
+.col-2 {width: 100%;}
+.col-3 {width: 100%;}
+.col-4 {width: 100%;}
+.col-5 {width: 100%;}
+.col-6 {width: 100%;}
+.col-7 {width: 100%;}
+.col-8 {width: 100%;}
+.col-9 {width: 100%;}
+.col-10 {width: 100%;}
+.col-11 {width: 100%;}
+.col-12 {width: 100%;}
+
+* {
+    font-family: 'Helvetica Neue LT', 'Helvetica Neue', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'; 
+}
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: black;
+    background-color: var(--main-bg-color);
+    padding: 0px;
+    margin: 0px;
 }
 
 a.active {
@@ -73,10 +91,6 @@ a.active:before {
     fill: white;
 }
 
-* {
-    font-family: 'Helvetica Neue LT', 'Helvetica Neue', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'; 
-}
-
 .well-being-list a:hover .arrow-link {
     opacity: 1;
     margin-left: 0px;
@@ -88,36 +102,15 @@ a.active:before {
     transition: all .3s ease;
 }
 
-/**************************/
-/********* GENERAL ********/
-/**************************/
-
-body {
-    background-color: var(--main-bg-color);
-    padding: 0px;
-    margin: 0px;
-}
-
 #footer a:hover {
     color: white;
 }
 
-.col-1 {width: 100%;}
-.col-2 {width: 100%;}
-.col-3 {width: 100%;}
-.col-4 {width: 100%;}
-.col-5 {width: 100%;}
-.col-6 {width: 100%;}
-.col-7 {width: 100%;}
-.col-8 {width: 100%;}
-.col-9 {width: 100%;}
-.col-10 {width: 100%;}
-.col-11 {width: 100%;}
-.col-12 {width: 100%;}
+/*1. BASE*/
 
-/*****************/
-/**Container Blue*/
-/*****************/
+/***1.1. CONTAINERS*/
+
+/*****1.1.1. Container Blue*/
 
 .secondary-container-blue {
     background-color: #096ade;
@@ -144,9 +137,7 @@ body {
     color: #1DA1F2 !important;
 }
 
-/******************/
-/*Container Purple*/
-/******************/
+/*****1.1.2. Container Purple*/
 
 .secondary-container-purple {
     background-color: #500399;
@@ -173,9 +164,7 @@ body {
     color: #A37CED !important;
 }
 
-/******************/
-/**Container Green*/
-/******************/
+/*****1.1.3. Container Green*/
 
 .secondary-container-green {
     background-color:#028A51;
@@ -202,10 +191,7 @@ body {
     color: #18BF63 !important;
 }
 
-
-/*******************/
-/**Container Orange*/
-/*******************/
+/*****1.1.4. Container Orange*/
 
 .secondary-container-orange {
     background-color: #D82E18;
@@ -232,9 +218,7 @@ body {
     color: #ff6f5d !important;
 }
 
-/********************/
-/**Container Pumpkin*/
-/********************/
+/*****1.1.5. Container Pumpkin*/
 
 .secondary-container-pumpkin {
     background-color: #F98E00;
@@ -261,9 +245,7 @@ body {
     color: #ffc06d !important;
 }
 
-/********************/
-/***Container Wine***/
-/********************/
+/*****1.1.6. Container Wine*/
 
 .secondary-container-wine {
     background-color: #A01844;
@@ -290,340 +272,331 @@ body {
     color: #da376c !important;
 }
 
+/********/
 
+/*2. ELEMENTS*/
 
-
-
-
-/**************************/
-/********* MOBILE ********/
-/**************************/
-
-@media (min-device-width:0px) { 
-
-    .hero-main-container, .secondary-container-purple, .secondary-container-blue, .secondary-container-green, .secondary-container-orange, .secondary-container-pumpkin, .secondary-container-wine {
-        padding: 0 50px 10em 50px;
-    }
-
-    #topnav {
-        display: none;
-    }
-
-    h1, .title-xxl {
-        line-height: .97;
-        max-width: unset;
-        letter-spacing: normal;
-        margin: 1em 0 .3em 0;
-        font-weight: 900;
-        display: inline-block;
-    }
-    
-    h1 {
-        font-size: 6em;
-    }
-    
-    .title-xxl {
-        font-size: 10em; 
-        color: white;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    .hero-main-description {
-        color: var(--second-accent);
-        margin-top: 5rem;
-        font-size: 2em;
-        line-height: 1.04545;
-        letter-spacing: normal;
-        max-width: 100%;
-        margin-bottom: 10rem;
-    }
-    
-    .pretitle-m {
-        font-weight: 600;
-        font-size: 2.5em;
-        line-height: normal;
-        letter-spacing: normal;
-        color: var(--main-bg-color);
-    }
-    
-    .text-xl {
-        font-weight: 600;
-        font-size: 2.5em;
-        line-height: normal;
-        letter-spacing: normal;
-        color: var(--second-accent);
-    }
-    
-    .text-xxl {
-        font-weight: 600;
-        font-size: 7em;
-        letter-spacing: normal;
-        margin: .2em 0 0 0;
-        line-height: 1em;
-    }
-    
-    .text-xs-grey, .pretitle-xs-grey {
-        font-size: var(--text-xs);
-        font-weight: 900;
-        color: var(--second-accent)
-    }
-    
-    .pretitle-xs {
-        font-size: var(--text-xs);
-        font-weight: 900;
-    }
-    
-    .font-m {
-        font-size: 1.3em;
-        font-weight: 500;
-    }
-    
-    .grid-cards h4 {
-        margin-bottom: 0em;
-        margin-top: 1em;
-        font-size: 4em;
-    }
-    
-    .col {
-        margin: 7em 0 7em 0;
-    }
-    
-    .section-1 {
-        margin-top: 15em;
-    }
-
-    .sidebar-left .logo a:hover {
-        background-color: unset;
-    }
-    
-    .menu ul a {
-        margin-right: 30px;
-    }
-    
-    .header {
-        display: grid;
-        grid-template-columns: 1fr 6fr;
-        justify-content: center;
-        align-items: center;
-        padding: 10px 30px 10px;
-    }
-    
-    .header a {
-        color: var(--main-accent);
-        font-weight: normal;
-    }
-    
-    .menu {
-        display: none;
-    }
-    
-    .menu ul {
-        display: flex;
-        list-style: none;
-        padding: 0px;
-    }
-    
-    .grid-cards {
-        margin: 7em 0px 7em 0px;
-    }
-
-    .tools .text-xs {
-        max-width: unset;
-        font-size: var(--text-xs);
-        font-weight: 600;
-        color: var(--second-accent);
-    }
-    
-    .number {
-        font-size: 1.5em;
-        vertical-align: middle;
-        margin-top: -4.3px !important;
-        display: inline-block;
-        color: white;
-    }
-    
-    .well-being-list a {
-        color: white;
-        font-weight: 900;
-        font-size: 1.1em;
-    }
-    
-    .well-being-list ul {
-        padding: 0px;
-        line-height: 4em;
-        list-style: none;
-    }
-    
-    .sidebar-left {
-        position: relative;
-        width: 90%;
-        background-color: unset;
-        top: 50px;
-        padding-left: 25px;
-        overflow-y: initial;
-        z-index: unset;
-    }
-    
-    .links-sidebar-left li {
-        margin: 2em 0 2em 0;
-    }
-
-    .links-sidebar-left a {
-        padding: 15px 30px 15px 30px;
-        color: var(--second-accent);
-        font-weight: 600;
-        transition: all .3s ease;
-    }
-    
-    .links-sidebar-left a:hover {
-        background-color: var(--links-bg);
-        border-radius: 50px;
-        color: black !important;
-        opacity: .7;
-    }
-
-    .links-sidebar-left ul {
-        list-style: none;
-        padding: 0px;
-    }
-    
-    .ver-line {
-        position: relative;
-        font-size: 1em;
-    }
-    
-    .ver-line:after {
-        content: "";
-        width: 65%;
-        height: 5px;
-        background: white;
-        bottom: 0px;
-        position: absolute;
-        left: 200px;
-        top: 23px;
-    }
-    
-    .category {
-        position: relative;
-        font-size: 2.1em;
-        font-weight: 500;
-        margin-left: 70px;
-    }
-    
-    .category:before {
-        content: "";
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        position: absolute;
-        top: 11.5px;
-        left: -65px;
-        z-index: 999;
-    }
-    
-    .card-button {
-        background: none;
-        border: none;
-        font-size: 2.5em;
-        color: white;
-        font-weight: 600;
-        padding: 0px;
-    }
-    
-    .well-being {
-        margin: 2em 0px 3em 0px;
-    }
-    
-    .keep-scrolling {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 3em;
-        margin-top: 5em;
-        align-items: center;
-    }
-
-    .logo {
-        position: relative;
-        margin-bottom: 4em;
-    }
-
-    .logo svg {
-        transform: scale(3) translate(43px, 5px);
-        margin-bottom: 4em;
-    }
-
-    .col-card {
-        min-height: 45rem;
-        border-radius: 2rem;
-        border: solid 4px white;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        padding: 4rem;
-        width: auto;
-        transition: .334s cubic-bezier(0,0,0,1);
-        margin: 3.5em 0px 3.5em 0px;
-    }
-    
-    .col-card:hover {
-        transform: scale(.95);
-        border: none;
-        box-shadow: 0px 3px 18px 0px #00000014;
-    }
-    
-    .col-card p {
-        font-weight: 600;
-        letter-spacing: .2px;
-        max-width: 95%;
-        margin-bottom: 2em;
-        font-size: 2.3em;
-        line-height: 1.3em;
-    }
-    
-    .col-card-container {
-        margin-top: auto;
-    }
-
-    .arrow {
-        font-size: 3em;
-        line-height: 2em;
-        content: "";
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        right: -8px;
-        bottom: -70px;
-        border-radius: 50%;
-        color: white;
-        text-align: center;
-        font-weight: 900;
-    }
-
-    .arrow-container {
-        position: relative;
-        float: right;
-    }
-
-    #footer {
-        display: block;
-        padding: 40px 30px 50px 30px;
-        background-color: #14171A;
-        color: #cacaca;
-    }
-
-    #footer a {
-        color: #cacaca;
-    }
+.hero-main-container, .secondary-container-purple, .secondary-container-blue, .secondary-container-green, .secondary-container-orange, .secondary-container-pumpkin, .secondary-container-wine {
+    padding: 0 50px 10em 50px;
 }
 
-/**************************/
-/********* TABLETS ********/
-/**************************/
+#topnav {
+    display: none;
+}
 
-@media (min-device-width:768px) { 
+h1, .title-xxl {
+    line-height: .97;
+    max-width: unset;
+    letter-spacing: normal;
+    margin: 1em 0 .3em 0;
+    font-weight: 900;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+.title-xxl {
+    font-size: 10em; 
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-main-description {
+    color: var(--second-accent);
+    margin-top: 5rem;
+    font-size: 2em;
+    line-height: 1.04545;
+    letter-spacing: normal;
+    max-width: 100%;
+    margin-bottom: 10rem;
+}
+
+.pretitle-m {
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--main-bg-color);
+}
+
+.text-xl {
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--second-accent);
+}
+
+.text-xxl {
+    font-weight: 600;
+    font-size: 7em;
+    letter-spacing: normal;
+    margin: .2em 0 0 0;
+    line-height: 1em;
+}
+
+.text-xs-grey, .pretitle-xs-grey {
+    font-size: var(--text-xs);
+    font-weight: 900;
+    color: var(--second-accent)
+}
+
+.pretitle-xs {
+    font-size: var(--text-xs);
+    font-weight: 900;
+}
+
+.font-m {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.grid-cards h4 {
+    margin-bottom: 0em;
+    margin-top: 1em;
+    font-size: 4em;
+}
+
+.col {
+    margin: 7em 0 7em 0;
+}
+
+.section-1 {
+    margin-top: 15em;
+}
+
+.sidebar-left .logo a:hover {
+    background-color: unset;
+}
+
+.menu ul a {
+    margin-right: 30px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px 10px;
+}
+
+.header a {
+    color: var(--main-accent);
+    font-weight: normal;
+}
+
+.menu {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.tools .text-xs {
+    max-width: unset;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--second-accent);
+}
+
+.number {
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-top: -4.3px !important;
+    display: inline-block;
+    color: white;
+}
+
+.well-being-list a {
+    color: white;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+.well-being-list ul {
+    padding: 0px;
+    line-height: 4em;
+    list-style: none;
+}
+
+.sidebar-left {
+    position: relative;
+    width: 90%;
+    background-color: unset;
+    top: 50px;
+    padding-left: 25px;
+    overflow-y: initial;
+    z-index: unset;
+}
+
+.links-sidebar-left li {
+    margin: .5em 0 .5em 0;
+}
+
+.links-sidebar-left a {
+    padding: 15px 30px 15px 30px;
+    color: var(--second-accent);
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.links-sidebar-left a:hover {
+    background-color: var(--links-bg);
+    border-radius: 50px;
+    color: black !important;
+    opacity: .7;
+}
+
+.links-sidebar-left ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.ver-line {
+    position: relative;
+    font-size: 1em;
+}
+
+.ver-line:after {
+    content: "";
+    width: 65%;
+    height: 5px;
+    background: white;
+    bottom: 0px;
+    position: absolute;
+    left: 200px;
+    top: 23px;
+}
+
+.category {
+    position: relative;
+    font-size: 2.1em;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+.category:before {
+    content: "";
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: 11.5px;
+    left: -65px;
+    z-index: 999;
+}
+
+.card-button {
+    background: none;
+    border: none;
+    font-size: 2.5em;
+    color: white;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.well-being {
+    margin: 2em 0px 3em 0px;
+}
+
+.keep-scrolling {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3em;
+    margin-top: 5em;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    margin-bottom: 4em;
+}
+
+.logo svg {
+    transform: scale(3) translate(43px, 5px);
+    margin-bottom: 4em;
+}
+
+.col-card {
+    min-height: 45rem;
+    border-radius: 2rem;
+    border: solid 4px white;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    width: auto;
+    transition: .334s cubic-bezier(0,0,0,1);
+    margin: 3.5em 0px 3.5em 0px;
+}
+
+.col-card:hover {
+    transform: scale(.95);
+    border: none;
+    box-shadow: 0px 3px 18px 0px #00000014;
+}
+
+.col-card p {
+    font-weight: 600;
+    letter-spacing: .2px;
+    max-width: 95%;
+    margin-bottom: 2em;
+    font-size: 2.3em;
+    line-height: 1.3em;
+}
+
+.col-card-container {
+    margin-top: auto;
+}
+
+.arrow {
+    font-size: 3em;
+    line-height: 2em;
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -8px;
+    bottom: -70px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+.arrow-container {
+    position: relative;
+    float: right;
+}
+
+#footer {
+    display: block;
+    padding: 40px 30px 50px 30px;
+    background-color: #14171A;
+    color: #cacaca;
+}
+
+#footer a {
+    color: #cacaca;
+}
+
+
+/*3. MEDIA QUERIES*/
+
+/***3.1. iPad and Tablets*/
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1224px) {
 
     .secondary-container-purple, .secondary-container-blue, .secondary-container-green, .secondary-container-orange, .secondary-container-pumpkin, .secondary-container-wine {
         padding: 0 50px 10em 50px;
@@ -642,6 +615,13 @@ body {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
+    .grid-cards {
+        display: grid;
+        grid-gap: 1.8em;
+        margin-top: 5em;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .well-being-list ul {
         line-height: 2.5em;
     }
@@ -659,23 +639,17 @@ body {
     .ver-line:after {
         content: "";
         width: 65%;
-        height: 3px;
+        height: 2px;
         background: white;
         bottom: 0px;
         position: absolute;
-        left: 100px;
+        left: 80px;
         top: 12px;
     }
 
     .links-sidebar-left li {
         margin: 0.5em 0 0.5em 0;
         font-size: 2em;
-    }
-
-    .grid-cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1.5em;
     }
 
     .col-card {
@@ -722,7 +696,7 @@ body {
     }
 
     h1 {
-        font-size: 6em;
+        font-size: 5em;
     }    
 
     .header {
@@ -785,37 +759,9 @@ body {
     }
 }
 
-/********************************/
-/********* LO-RES LAPTOP ********/
-/********************************/
+/***3.3. Laptops and Desktops*/
 
-@media (min-device-width:1100px) { 
-
-.grid-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1.5em;
-}
-
-.arrow {
-    font-size: 2.2em;
-    width: 70px;
-    height: 70px;
-    right: -8px;
-    bottom: -36px;
-}
-
-.arrow-container {
-    position: relative;
-    float: right;
-}
-}
-
-/*******************************/
-/**** LAPTOPS AND DESKTOPS *****/
-/*******************************/
-
-@media (min-device-width:1300px) {
+@media only screen and (min-width: 1224px) {
 
 .secondary-container-blue, .secondary-container-purple, .secondary-container-green, .secondary-container-orange, .secondary-container-pumpkin, .secondary-container-wine {
     padding: .1em 100px 10em 290px;
@@ -1009,7 +955,7 @@ h1 {
 
 .well-being {
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 3fr 2fr;
     grid-gap: 10em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -1048,4 +994,3 @@ h1 {
     color: white;
 }
 }
-/******/
